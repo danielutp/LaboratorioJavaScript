@@ -28,7 +28,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: 'La resta de 10-5',
@@ -57,7 +57,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿La division de 4/2?',
@@ -86,7 +86,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿La suma de 2+8?',
@@ -115,7 +115,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿La multiplicacion de 2*10?',
@@ -144,7 +144,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             }
         ]
     },
@@ -177,7 +177,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: 'Capital de EEUU',
@@ -206,7 +206,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Capital de Brazil?',
@@ -235,7 +235,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Capital de España?',
@@ -264,7 +264,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Capital de peru?',
@@ -293,7 +293,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             }
         ]
     },
@@ -326,7 +326,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Quien pinto: "La última cena"?',
@@ -355,7 +355,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Quien pinto: "La última cena"?',
@@ -384,7 +384,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Quien pinto: "La persistencia de la memoria"?',
@@ -413,7 +413,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Quien pinto: "Mona Lisa"?',
@@ -442,7 +442,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             }
         ]
     },
@@ -475,7 +475,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Quienes eran los templarios?',
@@ -504,7 +504,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Qué inició la Segunda Guerra Mundial?',
@@ -533,7 +533,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Cómo comenzó la Primera Guerra Mundial?',
@@ -562,7 +562,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: 'En qué año descubrió Cristóbal Colón, América.',
@@ -591,7 +591,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             }
         ]
     },
@@ -624,7 +624,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: 'Autor de Don Quijote de la Mancha',
@@ -653,7 +653,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Cuál de estos personajes jamás apareció en la revista Time como "Hombre del Año?',
@@ -682,7 +682,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿Qué biblioteca conserva la colección de libros de sexo más importante del mundo?',
@@ -711,7 +711,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             },
             {
                 pregunta: '¿De qué fruta se obtiene la copra?',
@@ -740,7 +740,7 @@ export const data = [
                     },          
 
                 ],
-                respondida: null
+                
             }
         ]
     },
