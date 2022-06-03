@@ -14,16 +14,22 @@ nombre.type = "text";
 nombre.placeholder = "Ingresa tu nombre";
 const buttonOk = document.createElement("button");
 buttonOk.classList.add("btn","btn-success","ms-2","mt-2");
+const buttonRanking = document.createElement("button");
+buttonRanking.classList.add("btn","btn-success","ms-2","mt-2");
 const buttonRendirse = document.createElement("button");
 buttonRendirse.classList.add("btn","btn-outline-danger","btn-lg","w-50","ms-2","mt-2");
 buttonOk.innerHTML = "Enviar";
+buttonRanking.innerHTML = "Ranking";
 buttonRendirse.innerHTML = "Rendirse";
 const img = document.createElement("img");
 img.src="/imagenes/sof.webp";
+img.style.width = "300px"
 buttonOk.onclick = () => enviar()
+buttonRanking.onclick = () => ranking()
 buttonRendirse.onclick = () => rendirse()
 container.appendChild(nombre);
 container.appendChild(buttonOk);
+container.appendChild(buttonRanking);
 container.appendChild(img);
 let pregunta;
 const tdA = document.createElement("td");
@@ -41,6 +47,27 @@ function enviar() {
     localStorage.setItem(nombre.value, 0)
     container.innerHTML = "";
     nuevaPregunta()
+}
+
+function ranking() {
+    if (document.querySelector(".table-ranking")) {
+        container.remove(tablaRanking);        
+    }   
+    const containerRanking = document.createElement("div");
+    containerRanking.classList.add("d-flex","flex-column","justify-content-between","align-items-center");
+    const tablaRanking = document.createElement("table");
+    tablaRanking.classList.add("table","table-info","fs-5","table-ranking","w-25","table-striped","table-bordered");
+    const resultados = Object.entries({...localStorage});
+    resultados.forEach(resultado => {
+        const tr = document.createElement("tr");
+        tablaRanking.append(tr);
+        const td1 = document.createElement("td");
+        const td2 = document.createElement("td");
+        td1.textContent = resultado[0];
+        td2.textContent = resultado[1];
+        tr.append(td1, td2);
+    });
+    container.append(tablaRanking);
 }
 
 /**
